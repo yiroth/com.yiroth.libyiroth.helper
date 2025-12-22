@@ -110,16 +110,5 @@ namespace LibYiroth.Helper
                 _ => ConstTimeRateFPS30
             };
         }
-
-        public static LibYiroth.Data.Time GetTimeFromSeconds(int totalSeconds)
-        {
-            totalSeconds = Mathf.Clamp(totalSeconds, 0, 86400);
-
-            int hours = totalSeconds / 3600;
-            int minutes = (totalSeconds % 3600) / 60;
-            int seconds = totalSeconds % 60;
-
-            return new LibYiroth.Data.Time(hours, minutes, seconds);
-        }            
     }
 }
