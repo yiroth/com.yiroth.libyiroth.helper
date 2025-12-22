@@ -1,11 +1,9 @@
 {
     "name": "LibYiroth.Helper",
     "rootNamespace": "LibYiroth.Helper",
-    "references": [
-        "GUID:a5a511adc6762ea4b999421f0be7b855",
-        "GUID:38e73918b09b001469f9a9388072b54c"
-    ],
+    "references": [],
     "includePlatforms": [],
+    "excludePlatforms": [],
     "allowUnsafeCode": false,
     "overrideReferences": false,
     "precompiledReferences": [],
