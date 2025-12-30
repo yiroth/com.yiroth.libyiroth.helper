@@ -35,7 +35,7 @@ namespace LibYiroth.Helper
         
         // Source - https://stackoverflow.com/a
         // Posted by classicSchmosby98
-        // Retrieved 2025-12-30, License - CC BY-SA 4.0
+        // Retrieved 2025-12-30, Licence - CC BY-SA 4.0
         // Modified by yiroth
         public static bool TryGetElementByIndex<T>(List<T> list, int index, out T element)
         {
