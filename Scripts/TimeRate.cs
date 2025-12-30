@@ -62,7 +62,7 @@ namespace LibYiroth.Helper
         TimeRateFPS360
     }
     
-    public class TimeRate
+    public static class TimeRate
     {
         public const float ConstTimeRateFPS1 = 1.0f;
         public const float ConstTimeRateFPS2 = 0.5f;
