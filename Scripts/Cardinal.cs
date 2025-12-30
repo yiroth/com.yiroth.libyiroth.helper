@@ -13,7 +13,7 @@
  * See the License for the specific language governing permissions and
  * limitations under the License.
  *
- * Purpose: Common helper functions
+ * Purpose: A static class for keeping common helper functions
  */
 
 using System.Collections.Generic;

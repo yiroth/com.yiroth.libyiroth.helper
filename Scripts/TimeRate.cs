@@ -13,7 +13,7 @@
  * See the License for the specific language governing permissions and
  * limitations under the License.
  *
- * Purpose: Function and data library for time management
+ * Purpose: Function library for handling common time rates
  */
 
 using UnityEngine;
