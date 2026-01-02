@@ -39,12 +39,15 @@ namespace LibYiroth.Helper
         // Modified by yiroth
         public static bool TryGetElementByIndex<T>(List<T> list, int index, out T element)
         {
-            var e = list.ElementAtOrDefault(index);
-
-            if (IsValid(e))
+            if (list != null && index >= 0 && index < list.Count)
             {
-                element = e;
-                return true;
+                var e = list[index];
+        
+                if (IsValid(e))
+                {
+                    element = e;
+                    return true;
+                }
             }
 
             element = default;
