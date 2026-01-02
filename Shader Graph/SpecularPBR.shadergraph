@@ -265,7 +265,7 @@
     "m_Group": {
         "m_Id": ""
     },
-    "m_Name": "ORM_Specular Extractor",
+    "m_Name": "Mask To Specular Converter",
     "m_DrawState": {
         "m_Expanded": true,
         "m_Position": {
@@ -756,10 +756,10 @@
     "m_Type": "UnityEditor.ShaderGraph.Vector4MaterialSlot",
     "m_ObjectId": "6869fc84973d4b0989c671d4360d17bc",
     "m_Id": 6,
-    "m_DisplayName": "SpecularColour",
+    "m_DisplayName": "Specular_Colour",
     "m_SlotType": 1,
     "m_Hidden": false,
-    "m_ShaderOutputName": "SpecularColour",
+    "m_ShaderOutputName": "Specular_Colour",
     "m_StageCapability": 2,
     "m_Value": {
         "x": 0.0,
@@ -1072,10 +1072,10 @@
     "m_Type": "UnityEditor.ShaderGraph.Vector1MaterialSlot",
     "m_ObjectId": "a8658ad9ee114a318c2f5a4d149f9e7c",
     "m_Id": 4,
-    "m_DisplayName": "AO",
+    "m_DisplayName": "Ambient_Occlusion",
     "m_SlotType": 1,
     "m_Hidden": false,
-    "m_ShaderOutputName": "AO",
+    "m_ShaderOutputName": "Ambient_Occlusion",
     "m_StageCapability": 2,
     "m_Value": 0.0,
     "m_DefaultValue": 0.0,
