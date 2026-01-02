@@ -25,12 +25,12 @@ namespace LibYiroth.Helper
     {
         public static bool IsValid(object check)
         {
-            return !check.Equals(null);
+            return check != null && !check.Equals(null);
         }
 
         public static bool IsNotValid(object check)
         {
-            return check.Equals(null);
+            return check == null || check.Equals(null);
         }
         
         // Source - https://stackoverflow.com/a
