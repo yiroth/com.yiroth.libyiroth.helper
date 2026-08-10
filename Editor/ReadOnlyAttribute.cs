@@ -1,5 +1,5 @@
 ﻿/*
- * Copyright 2025 yiroth
+ * Copyright 2025 Ashrose
  *
  * Licensed under the Apache License, Version 2.0 (the "License");
  * you may not use this file except in compliance with the License.
@@ -21,7 +21,7 @@ using UnityEngine;
 using UnityEditor;
 #endif
 
-namespace LibYiroth.Helper.Editor
+namespace Ashrose.Helper.Editor
 {
     public class ReadOnlyAttribute : PropertyAttribute
     {
