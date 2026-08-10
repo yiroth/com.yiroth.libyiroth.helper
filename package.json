@@ -1,11 +1,11 @@
 {
-  "name": "com.yiroth.libyiroth.helper",
-  "displayName": "LibYiroth - Helper",
+  "name": "com.ashrose.helper",
+  "displayName": "Ashrose - Helper",
   "author": {
-    "name": "yiroth"
+    "name": "rosimelade"
   },
-  "version": "0.0.1",
-  "unity": "6000.3",
-  "description": "LibYiroth, Helper",
+  "version": "0.0.2",
+  "unity": "6000.5",
+  "description": "Ashrose, Helper",
   "relatedPackages": {}
 }
