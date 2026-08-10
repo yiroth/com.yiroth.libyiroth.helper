@@ -2,7 +2,7 @@ using UnityEngine;
 using UnityEditor;
 using System.IO;
 
-namespace LibYiroth.Helper.Editor
+namespace Ashrose.Helper.Editor
 {
     public class SpecularMaterialCreator
     {
