@@ -1,5 +1,5 @@
 /*
- * Copyright 2025 yiroth
+ * Copyright 2025 Ashrose
  *
  * Licensed under the Apache License, Version 2.0 (the "License");
  * you may not use this file except in compliance with the License.
@@ -19,7 +19,7 @@
 using System.Collections.Generic;
 using System.Linq;
 
-namespace LibYiroth.Helper
+namespace Ashrose.Helper
 {
     public static class Cardinal
     {
@@ -36,7 +36,7 @@ namespace LibYiroth.Helper
         // Source - https://stackoverflow.com/a
         // Posted by classicSchmosby98
         // Retrieved 2025-12-30, Licence - CC BY-SA 4.0
-        // Modified by yiroth
+        // Modified by Ashrose
         public static bool TryGetElementByIndex<T>(List<T> list, int index, out T element)
         {
             if (list != null && index >= 0 && index < list.Count)
