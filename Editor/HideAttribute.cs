@@ -1,6 +1,6 @@
 using UnityEngine;
 
-namespace LibYiroth.Helper.Editor
+namespace Ashrose.Helper.Editor
 {
     public class HideAttribute : PropertyAttribute { }
 }
