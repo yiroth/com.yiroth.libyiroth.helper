@@ -20,7 +20,7 @@ using UnityEngine;
 
 namespace Ashrose.Helper
 {
-    public enum ETimeRate
+    public enum CommonTimeRates
     {
         [InspectorName("FPS: 1")]
         TimeRateFPS1,
@@ -84,29 +84,29 @@ namespace Ashrose.Helper
         public const float ConstTimeRateFPS240 = 0.004166667f;
         public const float ConstTimeRateFPS360 = 0.002777778f;
 
-        public static float GetTimeRateValue(ETimeRate timeRate)
+        public static float GetTimeRateValue(CommonTimeRates timeRate)
         {
             return timeRate switch
             {
-                ETimeRate.TimeRateFPS1 => ConstTimeRateFPS1,
-                ETimeRate.TimeRateFPS2 => ConstTimeRateFPS2,
-                ETimeRate.TimeRateFPS5 => ConstTimeRateFPS5,
-                ETimeRate.TimeRateFPS10 => ConstTimeRateFPS10,
-                ETimeRate.TimeRateFPS12 => ConstTimeRateFPS12,
-                ETimeRate.TimeRateFPS15 => ConstTimeRateFPS15,
-                ETimeRate.TimeRateFPS20 => ConstTimeRateFPS20,
-                ETimeRate.TimeRateFPS24 => ConstTimeRateFPS24,
-                ETimeRate.TimeRateFPS25 => ConstTimeRateFPS25,
-                ETimeRate.TimeRateFPS30 => ConstTimeRateFPS30,
-                ETimeRate.TimeRateFPS48 => ConstTimeRateFPS48,
-                ETimeRate.TimeRateFPS60 => ConstTimeRateFPS60,
-                ETimeRate.TimeRateFPS72 => ConstTimeRateFPS72,
-                ETimeRate.TimeRateFPS96 => ConstTimeRateFPS96,
-                ETimeRate.TimeRateFPS100 => ConstTimeRateFPS100,
-                ETimeRate.TimeRateFPS120 => ConstTimeRateFPS120,
-                ETimeRate.TimeRateFPS144 => ConstTimeRateFPS144,
-                ETimeRate.TimeRateFPS240 => ConstTimeRateFPS240,
-                ETimeRate.TimeRateFPS360 => ConstTimeRateFPS360,
+                CommonTimeRates.TimeRateFPS1 => ConstTimeRateFPS1,
+                CommonTimeRates.TimeRateFPS2 => ConstTimeRateFPS2,
+                CommonTimeRates.TimeRateFPS5 => ConstTimeRateFPS5,
+                CommonTimeRates.TimeRateFPS10 => ConstTimeRateFPS10,
+                CommonTimeRates.TimeRateFPS12 => ConstTimeRateFPS12,
+                CommonTimeRates.TimeRateFPS15 => ConstTimeRateFPS15,
+                CommonTimeRates.TimeRateFPS20 => ConstTimeRateFPS20,
+                CommonTimeRates.TimeRateFPS24 => ConstTimeRateFPS24,
+                CommonTimeRates.TimeRateFPS25 => ConstTimeRateFPS25,
+                CommonTimeRates.TimeRateFPS30 => ConstTimeRateFPS30,
+                CommonTimeRates.TimeRateFPS48 => ConstTimeRateFPS48,
+                CommonTimeRates.TimeRateFPS60 => ConstTimeRateFPS60,
+                CommonTimeRates.TimeRateFPS72 => ConstTimeRateFPS72,
+                CommonTimeRates.TimeRateFPS96 => ConstTimeRateFPS96,
+                CommonTimeRates.TimeRateFPS100 => ConstTimeRateFPS100,
+                CommonTimeRates.TimeRateFPS120 => ConstTimeRateFPS120,
+                CommonTimeRates.TimeRateFPS144 => ConstTimeRateFPS144,
+                CommonTimeRates.TimeRateFPS240 => ConstTimeRateFPS240,
+                CommonTimeRates.TimeRateFPS360 => ConstTimeRateFPS360,
                 _ => ConstTimeRateFPS30
             };
         }
